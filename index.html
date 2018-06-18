@@ -16,7 +16,19 @@
 </head>
 
 <body>
+<div class="info-bar">
+    <div class="info-bar__content">
+        <span class="info-bar__title">CAR-BRANDING.PL <span class="info-bar__title--italic">Profesjonalny branding pojazdów</span></span>
+
+        <span><i class="fa fa-phone"></i> +48 696 669 980</span>
+        <span><i class="fa fa-envelope"></i> biuro@carbranding.pl</span>
+        <span><i class="fa fa-building"></i> Morszyńska 36, Poznań</span>
+    </div>
+
+</div>
 <nav class="navbar ">
+
+
     <span class="logo ">CAR-BRANDING.PL</span>
 
     <button class="hamburger">
@@ -52,15 +64,15 @@
 
 
     <ul class="menu unactive">
-        <li class="menu__list-item">Home</li>
-        <li class="menu__list-item">Realizacje</li>
-        <li class="menu__list-item">Informacje</li>
-        <li class="menu__list-item">Kontakt</li>
+        <li class="menu__list-item"><a class="menu__link" href="#">Home</a></li>
+        <li class="menu__list-item"><a class="menu__link" href="#">Realizacje</a></li>
+        <li class="menu__list-item"><a class="menu__link" href="#">Informacje</a></li>
+        <li class="menu__list-item"><a class="menu__link" href="#">Kontakt</a></li>
     </ul>
 </nav>
 
 <header class="intro">
-    <h1 class="intro__title">Kompleksowa kreacja graficzna i oklejanie samochodów</h1>
+    <h1 class="intro__title">Kompleksowa kreacja graficzna<br>i oklejanie samochodów</h1>
     <div class="intro__scroll">
         <div class="intro__scroll--mouse">
             <div class="intro__scroll--scroller"></div>
@@ -78,8 +90,8 @@
         </div>
 
 
-        <div class="gallery-slider">
-            <button class="gallery-slider__arrow"
+        <div class="gallery-slider-mobile">
+            <button class="gallery-slider-mobile__arrow"
                     onclick="gallerySliderPrev()"><i class="fa fa-chevron-left"></i></button>
 
             <div class="card" style="display: block;">
@@ -109,7 +121,38 @@
                 </a>
             </div>
 
-            <button class="gallery-slider__arrow" onclick="gallerySliderNext()"><i class="fa fa-chevron-right"></i></button>
+            <button class="gallery-slider-mobile__arrow"
+                    onclick="gallerySliderNext()"><i class="fa fa-chevron-right"></i></button>
+        </div>
+
+
+        <div class="gallery-slider">
+            <div class="card">
+                <img class="card__image" src="images/realizations/realization-01-01.png">
+                <h4 class="card__title">Mini Cooper - Trigon1</h4>
+                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna... </p>
+                <a class="card__link" href="#">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
+                </a>
+            </div>
+
+            <div class="card">
+                <img class="card__image" src="images/realizations/realization-01-01.png">
+                <h4 class="card__title">Mini Cooper - Trigon2</h4>
+                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna... </p>
+                <a class="card__link" href="#">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
+                </a>
+            </div>
+
+            <div class="card">
+                <img class="card__image" src="images/realizations/realization-01-01.png">
+                <h4 class="card__title">Mini Cooper - Trigon3</h4>
+                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna... </p>
+                <a class="card__link" href="#">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
+                </a>
+            </div>
         </div>
 
 
@@ -122,24 +165,26 @@
             <h2 class="title__second-line title__second-line--black-background">Poznaj nasze <span
                     class="title--red-black">atuty</span></h2>
         </div>
+        <div class="features">
+            <div class="feature">
+                <i class="feature__icon fa fa-child"></i>
+                <span class="feature__description feature__description--first-line">50+</span>
+                <span class="feature__description feature__description--second-line">zadowolonych klientów</span>
+            </div>
 
-        <div class="feature">
-            <i class="feature__icon fa fa-child"></i>
-            <span class="feature__description feature__description--first-line">50+</span>
-            <span class="feature__description feature__description--second-line">zadowolonych klientów</span>
+            <div class="feature">
+                <i class="feature__icon fa fa-car"></i>
+                <span class="feature__description feature__description--first-line">100+</span>
+                <span class="feature__description feature__description--second-line">oklejonych samochodów</span>
+            </div>
+
+            <div class="feature">
+                <i class="feature__icon fa fa-diamond"></i>
+                <span class="feature__description feature__description--first-line">24</span>
+                <span class="feature__description feature__description--second-line">miesiące gwarancji</span>
+            </div>
         </div>
 
-        <div class="feature">
-            <i class="feature__icon fa fa-car"></i>
-            <span class="feature__description feature__description--first-line">100+</span>
-            <span class="feature__description feature__description--second-line">oklejonych samochodów</span>
-        </div>
-
-        <div class="feature">
-            <i class="feature__icon fa fa-diamond"></i>
-            <span class="feature__description feature__description--first-line">24</span>
-            <span class="feature__description feature__description--second-line">miesiące gwarancji</span>
-        </div>
     </section>
 
     <section class="container">
