@@ -1,6 +1,6 @@
 # Car-branding.pl
 
-Website for a car branding company.
+Website for a cars branding company.
 
 
 ### Prerequisites
