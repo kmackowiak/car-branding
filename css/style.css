@@ -376,32 +376,32 @@ body {
 
 /*__________ Features - End __________*/
 
-/*__________ Articles - Start __________*/
-.article {
+/*__________ About - Start __________*/
+.about {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
 }
 
-.article__text {
+.about__text {
     line-height: 1.5;
     margin: 0;
 }
 
-.article__figure {
+.about__figure {
     width: 90%;
 }
 
-.article__image {
+.about__image {
     width: 100%;
 }
 
-.article__figcaption {
+.about__figcaption {
     font-size: 1rem;
 }
 
-/*__________ Articles - End __________*/
+/*__________ About - End __________*/
 
 /*__________ Footer - Start __________*/
 .footer {
@@ -439,6 +439,44 @@ body {
 }
 
 /*__________ Footer - End __________*/
+
+/*__________ Articles - Start __________*/
+
+.articles{
+    width: 100%;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+}
+
+.articles__select {
+    width: 100%;
+    height: 3em;
+    margin-bottom: 3em;
+}
+
+.article__title {
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #7B1D1D;
+}
+
+.article__image {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.article__figcaption {
+    font-size: 1rem;
+}
+
+.archive {
+    display: none;
+}
+
+/*__________ Articles - End __________*/
 
 /*_____________________________________*/
 /*__________ Mobile - End __________*/
@@ -624,8 +662,8 @@ body {
 
     /*__________ Features - End __________*/
 
-    /*__________ Article - Start __________*/
-    .article {
+    /*__________ about - Start __________*/
+    .about {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -634,12 +672,12 @@ body {
 
     }
 
-    .article__text {
+    .about__text {
         width: 50%;
         text-align: right;
     }
 
-    .article__figure {
+    .about__figure {
         flex-grow: 2;
         text-align: center;
         width: 50%;
@@ -647,13 +685,99 @@ body {
         /*width: 48%;*/
     }
 
-    .article__image {
+    .about__image {
         height: 300px;
         width: 300px;
     }
 
-    /*__________ Article - End __________*/
+    /*__________ about - End __________*/
 }
+
+
+@media (min-width: 75rem) {
+
+    
+    /*__________ Articles - Start __________*/
+
+    .articles {
+        line-height: 2.5rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: center;
+    }
+    
+    .articles__select {
+        display: none;
+    }
+    
+    .article {
+        width: 60%;
+        margin-right: 4rem;
+        padding-bottom: 4rem;
+    }
+    
+    
+    .article__title {
+    font-size: 4rem;
+    text-transform: none;
+        text-align:center;
+        color: #7B1D1D;
+        font-weight: 400;
+    }
+    
+    .archive {
+        display: block;
+        width: 40%;
+        background: #EEEEEE;
+        padding: 0rem 5rem;
+        border-radius: 6px;
+        padding-bottom: 3rem;
+    }
+    
+    .archive__title {
+         font-size: 4rem;
+        text-transform: none;
+        text-align:center;
+        color: #7B1D1D;
+        font-weight: 400;
+    }
+    
+    .short {
+        display: flex;
+        background: #FFFFFF;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: center;
+        padding: 2rem;
+        margin: 2rem 0rem;
+        border-radius: 6px;
+    }
+    
+    .short__icon {
+        padding-right: 1.3rem;
+        color: #707070;
+    }
+    
+    .short__title {
+        margin: 1rem 0rem ;
+        color: #7B1D1D;
+        text-decoration: none;
+    }
+    
+    .short__title:hover {
+        text-decoration: underline;
+    }
+    
+    /*__________ Articles - End __________*/
+
+    
+}
+
+
+
 
 /*_____________________________________*/
 /*__________ Desktop - End __________*/
