@@ -11,8 +11,9 @@ body {
     color: #212121;
     background: #FFFFFF;
 }
-
 /*__________ Global - End __________*/
+
+
 
 /*_____________________________________*/
 /*__________ Mobile - Start __________*/
@@ -22,7 +23,6 @@ body {
 .info-bar {
     display: none;
 }
-
 /*__________ Infobar - End __________*/
 
 /*__________ Navbar - Start __________*/
@@ -41,6 +41,8 @@ body {
     line-height: 0px;
     font-size: 1.5rem;
     font-style: italic;
+    text-decoration: none;
+    color: #707070;
 }
 
 .logo--red {
@@ -74,6 +76,18 @@ body {
     width: 100%;
     left: 0;
     z-index: 5;
+
+    opacity: 1;
+    animation: fade 0.5s cubic-bezier(0, 1, 0.5, 1);
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
 }
 
 .unactive {
@@ -123,7 +137,6 @@ body {
 .hamburger--unactive {
     display: none;
 }
-
 /*__________ Navbar - End __________*/
 
 /*__________ Intro - Start __________*/
@@ -200,7 +213,6 @@ body {
         opacity: 0;
     }
 }
-
 /*__________ Intro - End __________*/
 
 /*__________ Container - Start __________*/
@@ -217,7 +229,7 @@ body {
     position: relative;
     text-align: center;
     text-transform: uppercase;
-    padding: 70px 0px;
+    padding: 50px 0px;
     font-size: 1rem;
 }
 
@@ -250,7 +262,6 @@ body {
 .title--red-black {
     color: #B70000;
 }
-
 /*__________ Container - End __________*/
 
 /*__________ Gallery-slider-mobile - Start __________*/
@@ -274,7 +285,8 @@ body {
     justify-content: center;
     width: 90%;
     max-width: 300px;
-    /*margin: 10px;*/
+    margin: 10px;
+    margin-bottom: 14px;
     border: 1px solid #707070;
     border-radius: 4px;
     padding-bottom: 14px;
@@ -303,19 +315,19 @@ body {
     color: #7B1D1D;
     font-size: 1rem;
     float: right;
+    text-align: right;
+
 }
 
 .card__link:hover {
     text-decoration: underline;
 }
-
 /*__________ Gallery-slider-mobile - End __________*/
 
 /*__________ Gallery-slider - Start __________*/
 .gallery-slider {
     display: none;
 }
-
 /*__________ Gallery-slider - End __________*/
 
 /*__________ Features - Start __________*/
@@ -373,7 +385,6 @@ body {
 .feature__description--second-line {
     font-size: 1.5rem;
 }
-
 /*__________ Features - End __________*/
 
 /*__________ About - Start __________*/
@@ -400,7 +411,6 @@ body {
 .about__figcaption {
     font-size: 1rem;
 }
-
 /*__________ About - End __________*/
 
 /*__________ Footer - Start __________*/
@@ -437,18 +447,16 @@ body {
     color: #707070;
     font-weight: 400;
 }
-
 /*__________ Footer - End __________*/
 
 /*__________ Articles - Start __________*/
-
-.articles{
+.articles {
     width: 100%;
     display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .articles__select {
@@ -475,12 +483,170 @@ body {
 .archive {
     display: none;
 }
-
 /*__________ Articles - End __________*/
+
+/*__________ Contact - Start __________*/
+.contact {
+    padding-bottom: 4rem;
+}
+
+.contact__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 3.5rem;
+}
+
+.contact__icon {
+    font-size: 4rem;
+    color: #7B1D1D;
+}
+
+.contact__title {
+    padding: 1rem 0rem 0.5rem 0rem;
+    font-weight: 600;
+}
+/*__________ Contact - End __________*/
+
+/*__________ Realizations - Start __________*/
+.realizations {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+/*__________ Realizations - Start __________*/
+
+/*__________ Realization - Start __________*/
+.realization {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.name-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background: #EEEEEE;
+    margin-bottom: 3rem;
+    width: 100%;
+}
+
+.name-bar__logo {
+    height: 30px;
+    width: auto;
+    padding: 1rem 0rem 1rem 1rem;
+}
+
+.name-bar__title {
+    padding: 1rem 0rem 1rem 1rem;
+    border-left: 2px solid #7B1D1D;
+    padding-left: 1rem;
+    margin-left: 1rem;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.gallery__active-image {
+    width: 100%;
+    border-radius: 3px;
+}
+
+.gallery__thumbnails {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /*height: 50px;*/
+    background-color: #EEEEEE;
+    padding: 0.5rem 0rem;
+    border-radius: 3px;
+}
+
+.gallery__thumbnail {
+    padding: 0.5rem 0.5rem;
+    height: 100%;
+    height: 50px;
+}
+
+.description {
+    list-style-type: none;
+    line-height: 2.6rem;
+    padding: 0rem 2rem;
+}
+
+.description__text {
+    color: #212121;
+    margin-left: 2rem;
+}
+
+.description__text--desc {
+
+    color: #707070;
+}
+
+.description__text--para {
+    margin: 0rem;
+    padding-left: 3.9rem;
+    color: #707070;
+}
+
+.title__up {
+    display: block;
+
+}
+
+.title__desc {
+
+    display: none;
+}
+
+.switch-realization {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.switch-realization__link {
+    text-decoration: none;
+    color: #212121;
+    padding-bottom: 1.1rem;
+
+}
+
+.switch-realization__link:hover {
+    text-decoration: none;
+    color: #7B1D1D;;
+    font-weight: 600;
+}
+
+.switch-realization__arrow {
+    color: #7B1D1D;
+}
+/*__________ Realization - End __________*/
 
 /*_____________________________________*/
 /*__________ Mobile - End __________*/
 /*_____________________________________*/
+
+
 
 /*_____________________________________*/
 /*__________ Desktop - Start __________*/
@@ -512,8 +678,8 @@ body {
     .info-bar__title--italic {
         font-style: italic;
     }
-
     /*__________ Infobar - End __________*/
+
     /*__________ Navbar - Start __________*/
     .navbar {
         display: flex;
@@ -526,7 +692,6 @@ body {
         margin-right: auto;
         max-width: 1200px;
         height: 5rem;
-
     }
 
     .hamburger {
@@ -544,14 +709,11 @@ body {
         box-sizing: content-box;
         background-color: #FFFFFF;
         width: 35rem;
-        /*left: auto;*/
-        /*right: auto;*/
         border-top: 0;
     }
 
     .menu__list-item {
         padding: 0;
-
         font-size: 1.5rem;
     }
 
@@ -561,7 +723,6 @@ body {
         color: #707070;
         margin-top: 30px;
         height: 40px;
-
     }
 
     .menu__link:hover {
@@ -570,8 +731,8 @@ body {
         padding-bottom: 0px;
         border-bottom: 3px solid #7B1D1D;
     }
-
     /*__________ Navbar - End __________*/
+
     /*__________ Intro - Start __________*/
     .intro {
         display: flex;
@@ -586,13 +747,11 @@ body {
         padding: 20px;
         margin-left: auto;
         margin-right: auto;
-
     }
 
     .intro__title {
         font-size: 3.0rem;
     }
-
     /*__________ Intro - End __________*/
     .container {
         max-width: 1200px;
@@ -605,37 +764,25 @@ body {
         padding-right: 20px;
     }
 
-
-
     .title {
         font-size: 1.5rem;
     }
-
     /*__________ Gallery-slider-mobile - Start __________*/
     .gallery-slider-mobile {
         display: none;
     }
-
     /*__________ Gallery-slider-mobile - End __________*/
+
     /*__________ Gallery-slider - Start __________*/
     .gallery-slider {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-content: space-around;
-
         width: 100%;
     }
-
-    .card {
-        /*margin: 0rem 0.7rem;*/
-    }
-
-    .card__link {
-        text-align: right;
-    }
-
     /*__________ Gallery-slider - End __________*/
+
     /*__________ Features - Start __________*/
     .features {
         display: flex;
@@ -659,17 +806,15 @@ body {
         padding-bottom: 0.8rem;
         color: #B70000;
     }
-
     /*__________ Features - End __________*/
 
-    /*__________ about - Start __________*/
+    /*__________ About - Start __________*/
     .about {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         text-align: center;
         align-content: center;
-
     }
 
     .about__text {
@@ -689,16 +834,27 @@ body {
         height: 300px;
         width: 300px;
     }
+    /*__________ About - End __________*/
 
-    /*__________ about - End __________*/
+    /*__________ Contact - Start __________*/
+    .contact {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact__info {
+        padding: 4rem;
+        width: 22rem;
+    }
+    /*__________ Contact - End __________*/
 }
-
 
 @media (min-width: 75rem) {
 
-    
     /*__________ Articles - Start __________*/
-
     .articles {
         line-height: 2.5rem;
         display: flex;
@@ -707,26 +863,25 @@ body {
         align-items: flex-start;
         align-content: center;
     }
-    
+
     .articles__select {
         display: none;
     }
-    
+
     .article {
         width: 60%;
         margin-right: 4rem;
         padding-bottom: 4rem;
     }
-    
-    
+
     .article__title {
-    font-size: 4rem;
-    text-transform: none;
-        text-align:center;
+        font-size: 4rem;
+        text-transform: none;
+        text-align: center;
         color: #7B1D1D;
         font-weight: 400;
     }
-    
+
     .archive {
         display: block;
         width: 40%;
@@ -735,15 +890,15 @@ body {
         border-radius: 6px;
         padding-bottom: 3rem;
     }
-    
+
     .archive__title {
-         font-size: 4rem;
+        font-size: 4rem;
         text-transform: none;
-        text-align:center;
+        text-align: center;
         color: #7B1D1D;
         font-weight: 400;
     }
-    
+
     .short {
         display: flex;
         background: #FFFFFF;
@@ -755,29 +910,45 @@ body {
         margin: 2rem 0rem;
         border-radius: 6px;
     }
-    
+
     .short__icon {
         padding-right: 1.3rem;
         color: #707070;
     }
-    
+
     .short__title {
-        margin: 1rem 0rem ;
+        margin: 1rem 0rem;
         color: #7B1D1D;
         text-decoration: none;
     }
-    
+
     .short__title:hover {
         text-decoration: underline;
     }
-    
     /*__________ Articles - End __________*/
 
-    
+    /*__________ Realization - Start __________*/
+    .realization {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .title__up {
+        display: none;
+    }
+
+    .title__desc {
+        display: block;
+    }
+
+    .switch-realization {
+        padding: 5rem 2rem;
+        font-size: 2rem;
+        justify-content: space-around;
+    }
+    /*__________ Realization - End __________*/
 }
-
-
-
 
 /*_____________________________________*/
 /*__________ Desktop - End __________*/
