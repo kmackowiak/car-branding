@@ -10,64 +10,12 @@
     <meta name="viewport" content="width=device-width">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-<div class="info-bar">
-    <div class="info-bar__content">
-        <span class="info-bar__title">CAR-BRANDING.PL <span class="info-bar__title--italic">Profesjonalny branding pojazdów</span></span>
 
-        <span><i class="fa fa-phone"></i> +48 696 669 980</span>
-        <span><i class="fa fa-envelope"></i> biuro@carbranding.pl</span>
-        <span><i class="fa fa-building"></i> Morszyńska 36, Poznań</span>
-    </div>
-
-</div>
-<nav class="navbar ">
-    <span class="logo ">CAR-BRANDING.PL</span>
-
-    <button class="hamburger">
-        <svg class="hamburger--open hamburger__open" data-name="Warstwa 1" xmlns="http://www.w3.org/2000/svg"
-             viewBox="0 0 20.47 18.23">
-            <defs>
-                <style>.cls-1 {
-                    fill: none;
-                    stroke-linecap: round;
-                    stroke-linejoin: round;
-                }</style>
-            </defs>
-            <title>logo</title>
-            <line class="cls-1" x1="1.58" y1="4.17" x2="18.89" y2="4.17"/>
-            <line class="cls-1" x1="1.58" y1="9.11" x2="18.89" y2="9.11"/>
-            <line class="cls-1" x1="1.58" y1="14.06" x2="18.89" y2="14.06"/>
-        </svg>
-
-        <svg class="hamburger--close hamburger--unactive" data-name="Warstwa 1" xmlns="http://www.w3.org/2000/svg"
-             viewBox="0 0 20.47 18.23">
-            <defs>
-                <style>.cls-1 {
-                    fill: none;
-                    stroke-linecap: round;
-                    stroke-linejoin: round;
-                }</style>
-            </defs>
-            <title>logo</title>
-            <line class="cls-1" x1="10.22" y1="1.55" x2="10.22" y2="16.68"/>
-            <line class="cls-1" x1="17.78" y1="9.11" x2="2.68" y2="9.11"/>
-        </svg>
-    </button>
-
-
-    <ul class="menu unactive">
-        <li class="menu__list-item"><a class="menu__link" href="#">Home</a></li>
-        <li class="menu__list-item"><a class="menu__link" href="#">Realizacje</a></li>
-        <li class="menu__list-item"><a class="menu__link" href="#">Informacje</a></li>
-        <li class="menu__list-item"><a class="menu__link" href="#">Kontakt</a></li>
-    </ul>
-</nav>
+<?php include("navbar.php"); ?>
 
 <header class="intro">
     <h1 class="intro__title">Kompleksowa kreacja graficzna<br>i oklejanie samochodów</h1>
@@ -78,19 +26,15 @@
     </div>
 </header>
 
-
 <main>
     <section class="container">
-
         <div class="title">
             <h3 class="title__first-line">Nieograniczone możliwości</h3>
             <h2 class="title__second-line">Ostatnie realizacje <span class="title--red">oklejeń</span></h2>
         </div>
 
-
         <div class="gallery-slider-mobile">
-            <button class="gallery-slider-mobile__arrow"
-                    onclick="gallerySliderPrev()"><i class="fa fa-chevron-left"></i></button>
+            <button class="gallery-slider-mobile__arrow" onclick="gallerySliderPrev()"><i class="fa fa-chevron-left"></i></button>
 
             <div class="card" style="display: block;">
                 <img class="card__image" src="images/realizations/realization-01-01.png">
@@ -119,10 +63,8 @@
                 </a>
             </div>
 
-            <button class="gallery-slider-mobile__arrow"
-                    onclick="gallerySliderNext()"><i class="fa fa-chevron-right"></i></button>
+            <button class="gallery-slider-mobile__arrow" onclick="gallerySliderNext()"><i class="fa fa-chevron-right"></i></button>
         </div>
-
 
         <div class="gallery-slider">
             <div class="card">
@@ -152,16 +94,13 @@
                 </a>
             </div>
         </div>
-
-
     </section>
-
 
     <section class="container container--feature container--black">
         <div class="title">
             <h3 class="title__first-line title__first-line--black-background">Pokaż się z lepszej strony</h3>
             <h2 class="title__second-line title__second-line--black-background">Poznaj nasze <span
-                    class="title--red-black">atuty</span></h2>
+                        class="title--red-black">atuty</span></h2>
         </div>
         <div class="features">
             <div class="feature">
@@ -182,7 +121,6 @@
                 <span class="feature__description feature__description--second-line">miesiące gwarancji</span>
             </div>
         </div>
-
     </section>
 
     <section class="container">
@@ -190,7 +128,6 @@
             <h3 class="title__first-line">Możesz nam zaufać</h3>
             <h2 class="title__second-line">Kilka słów <span class="title--red">o nas</span></h2>
         </div>
-
         <div class="about">
             <p class="about__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
@@ -207,11 +144,7 @@
     </section>
 </main>
 
-<footer class="footer">
-    <h2 class="footer__first-line">Car-branding.pl</h2>
-    <h3 class="footer__second-line">Profesjonalny branding pojazdów</h3>
-</footer>
-
+<?php include("footer.php"); ?>
 
 <script src="javascript/main.js"></script>
 
