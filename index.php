@@ -36,6 +36,7 @@
         <div class="gallery-slider-mobile">
             <button class="gallery-slider-mobile__arrow" onclick="gallerySliderPrev()"><i class="fa fa-chevron-left"></i></button>
 
+<!--
             <div class="card" style="display: block;">
                 <img class="card__image" src="images/realizations/realization-01-01.png">
                 <h4 class="card__title">Mini Cooper - Trigon1</h4>
@@ -62,35 +63,64 @@
                 <a class="card__link" href="#">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
                 </a>
             </div>
+-->
+            
+            
+            <div class="card" style="display: block;">
+                <img class="card__image" src="images/realizations/bmw-e46_struensee_01.jpg">
+                <h4 class="card__title">BMW E46 - Struensee</h4>
+                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna... </p>
+                <a class="card__link" href="bmw-e46-struensee.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
+                </a>
+            </div>
+            
+            <div class="card" style="display: none;">
+                <img class="card__image" src="images/realizations/mercedes-arocs_pawlica_01.jpg">
+                <h4 class="card__title">Mercedes Arocs - Pawlica</h4>
+                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna... </p>
+                <a class="card__link" href="mercedes-arocs-pawlica.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
+                </a>
+            </div>
+            
+            <div class="card" style="display: none;">
+                <img class="card__image" src="images/realizations/bmw-e93_01.jpg">
+                <h4 class="card__title">BMW E93</h4>
+                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna... </p>
+                <a class="card__link" href="bmw-e93.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
+                </a>
+            </div>
 
             <button class="gallery-slider-mobile__arrow" onclick="gallerySliderNext()"><i class="fa fa-chevron-right"></i></button>
         </div>
 
         <div class="gallery-slider">
             <div class="card">
-                <img class="card__image" src="images/realizations/realization-01-01.png">
-                <h4 class="card__title">Mini Cooper - Trigon1</h4>
+                <img class="card__image" src="images/realizations/bmw-e46_struensee_01.jpg">
+                <h4 class="card__title">BMW E46 - Struensee</h4>
                 <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna... </p>
-                <a class="card__link" href="#">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
+                <a class="card__link" href="bmw-e46-struensee.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
                 </a>
             </div>
-
+            
             <div class="card">
-                <img class="card__image" src="images/realizations/realization-01-01.png">
-                <h4 class="card__title">Mini Cooper - Trigon2</h4>
+                <img class="card__image" src="images/realizations/mercedes-arocs_pawlica_01.jpg">
+                <h4 class="card__title">Mercedes Arocs - Pawlica</h4>
                 <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna... </p>
-                <a class="card__link" href="#">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
+                <a class="card__link" href="mercedes-arocs-pawlica.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
                 </a>
             </div>
-
+            
             <div class="card">
-                <img class="card__image" src="images/realizations/realization-01-01.png">
-                <h4 class="card__title">Mini Cooper - Trigon3</h4>
+                <img class="card__image" src="images/realizations/bmw-e93_01.jpg">
+                <h4 class="card__title">BMW E93</h4>
                 <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna... </p>
-                <a class="card__link" href="#">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
+                <a class="card__link" href="bmw-e93.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
                 </a>
             </div>
         </div>

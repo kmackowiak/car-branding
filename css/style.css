@@ -516,6 +516,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+;
 
 }
 /*__________ Realizations - Start __________*/
@@ -556,6 +557,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     width: 100%;
+    
 }
 
 .gallery__active-image {
@@ -577,15 +579,15 @@ body {
 }
 
 .gallery__thumbnail {
-    padding: 0.5rem 0.5rem;
-    height: 100%;
-    height: 50px;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    height: 60px;
 }
 
 .description {
     list-style-type: none;
     line-height: 2.6rem;
     padding: 0rem 2rem;
+    width: 450px;
 }
 
 .description__text {
@@ -622,6 +624,7 @@ body {
     align-items: center;
     flex-wrap: wrap;
     text-align: center;
+    margin-top: 50px;
 }
 
 .switch-realization__link {
@@ -633,8 +636,19 @@ body {
 
 .switch-realization__link:hover {
     text-decoration: none;
-    color: #7B1D1D;;
-    font-weight: 600;
+    color: #7B1D1D;
+}
+
+.switch-realization__link--unactive {
+    text-decoration: none;
+    color: #707070;
+    padding-bottom: 1.1rem;
+
+}
+
+.switch-realization__link--unactive:hover  {
+    color: #707070;
+    cursor: default;
 }
 
 .switch-realization__arrow {
@@ -850,6 +864,14 @@ body {
         width: 22rem;
     }
     /*__________ Contact - End __________*/
+    
+     /*__________ Realization - Start __________*/
+    .gallery__thumbnail:nth-child(7n) {
+        display:block;
+        width:auto;
+        height:60px;
+    }
+    /*__________ Realization - End __________*/
 }
 
 @media (min-width: 75rem) {
@@ -880,6 +902,7 @@ body {
         text-align: center;
         color: #7B1D1D;
         font-weight: 400;
+        line-height: 5rem;
     }
 
     .archive {
@@ -947,7 +970,18 @@ body {
         font-size: 2rem;
         justify-content: space-around;
     }
+    
+    .realization__right {
+        border-left: 1px solid #707070;
+        margin-left: 20px;
+    
+    }
     /*__________ Realization - End __________*/
+    
+    
+   
+
+    
 }
 
 /*_____________________________________*/

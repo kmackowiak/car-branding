@@ -30,7 +30,7 @@
             <?php include("articles-select.php"); ?>
 
             <div class="article">
-                <h1 class="article__title">Tytuł artykułu nr 1</h1>
+                <h1 class="article__title">Zasady korzystania oraz polityka prywatności</h1>
 
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore

@@ -27,16 +27,15 @@
 
         <div class="name-bar">
             <img class="name-bar__logo" src="images/logos/mini.png" alt="">
-            <div class="name-bar__title">Mini Cooper - Trigon</div>
+            <div class="name-bar__title">Mini Cooper - Kojder</div>
         </div>
 
         <div class="realization">
             <div class="gallery">
-                <img class="gallery__active-image" src="images/realizations/mini_trigon_01.jpg" alt="">
+                <img class="gallery__active-image" src="images/realizations/mini_kojder_01.jpg" alt="">
                 <div class="gallery__thumbnails">
-                    <img class="gallery__thumbnail" src="images/realizations/mini_trigon_01.jpg" alt="">
-                    <img class="gallery__thumbnail" src="images/realizations/mini_trigon_02.jpg" alt="">
-                    <img class="gallery__thumbnail" src="images/realizations/mini_trigon_03.jpg" alt="">
+                    <img class="gallery__thumbnail" src="images/realizations/mini_kojder_01.jpg" alt="">
+                    <img class="gallery__thumbnail" src="images/realizations/mini_kojder_02.jpg" alt="">
                 </div>
             </div>
 
@@ -61,7 +60,7 @@
                     <li>
                         <i class="fa fa-photo"></i>
                         <span class="description__text">Projekt graficzny:
-                        <span class="description__text--desc">Siadly.com</span>
+                        <span class="description__text--desc">Reakcja Studio</span>
                     </span>
                     </li>
                     <li>
@@ -78,10 +77,10 @@
         </div>
 
         <div class="switch-realization">
-            <a class="switch-realization__link" href="bmw-e36-reakcja.php">
+            <a class="switch-realization__link" href="bmw-e36-palusko.php">
                 <i class="switch-realization__arrow fa fa-chevron-left"></i> poprzednia realizacja
             </a>
-            <a class="switch-realization__link" href="bmw-e36-palusko.php">
+            <a class="switch-realization__link" href="kia-picanto-wierzbicki.php">
                 następna realizacja <i class="switch-realization__arrow fa fa-chevron-right"></i>
             </a>
         </div>

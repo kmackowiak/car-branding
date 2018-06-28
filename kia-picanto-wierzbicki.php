@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Realizacje | Car-branding.pl</title>
+    <title>BMW E46 | Car-branding.pl</title>
     <meta name="description" content="xxx">
     <meta name="author" content="xx">
     <meta name="viewport" content="width=device-width">
@@ -26,17 +26,20 @@
         </div>
 
         <div class="name-bar">
-            <img class="name-bar__logo" src="images/logos/mini.png" alt="">
-            <div class="name-bar__title">Mini Cooper - Trigon</div>
+            <img class="name-bar__logo" src="images/logos/kia.png" alt="">
+            <div class="name-bar__title">Kia Picanto - Wierzbicki</div>
         </div>
 
         <div class="realization">
             <div class="gallery">
-                <img class="gallery__active-image" src="images/realizations/mini_trigon_01.jpg" alt="">
+                <img class="gallery__active-image" src="images/realizations/kia-picanto_wierzbicki_01.jpg" alt="">
                 <div class="gallery__thumbnails">
-                    <img class="gallery__thumbnail" src="images/realizations/mini_trigon_01.jpg" alt="">
-                    <img class="gallery__thumbnail" src="images/realizations/mini_trigon_02.jpg" alt="">
-                    <img class="gallery__thumbnail" src="images/realizations/mini_trigon_03.jpg" alt="">
+                    <img class="gallery__thumbnail" src="images/realizations/kia-picanto_wierzbicki_01.jpg" alt="">
+                    <img class="gallery__thumbnail" src="images/realizations/kia-picanto_wierzbicki_02.jpg" alt="">
+                    <img class="gallery__thumbnail" src="images/realizations/kia-picanto_wierzbicki_03.jpg" alt="">
+                    <img class="gallery__thumbnail" src="images/realizations/kia-picanto_wierzbicki_04.jpg" alt="">
+                    <img class="gallery__thumbnail" src="images/realizations/kia-picanto_wierzbicki_05.jpg" alt="">
+                    <img class="gallery__thumbnail" src="images/realizations/kia-picanto_wierzbicki_06.jpg" alt="">
                 </div>
             </div>
 
@@ -49,27 +52,26 @@
                     <li>
                         <i class="fa fa-cube"></i>
                         <span class="description__text">Użyty materiał:
-                        <span class="description__text--desc">Lorem ipsum</span>
+                        <span class="description__text--desc">Folia Avery Dennison</span>
                     </span>
                     </li>
                     <li>
                         <i class="fa fa-clock-o"></i>
-                        <span class="description__text">  Czas realizacji:
-                        <span class="description__text--desc">4 dni</span>
+                        <span class="description__text">Czas realizacji:
+                        <span class="description__text--desc">10 dni</span>
                     </span>
                     </li>
                     <li>
                         <i class="fa fa-photo"></i>
                         <span class="description__text">Projekt graficzny:
-                        <span class="description__text--desc">Siadly.com</span>
+                        <span class="description__text--desc">Reakcja Studio</span>
                     </span>
                     </li>
                     <li>
                         <i class="fa fa-gears"></i>
                         <span class="description__text">Przebieg projektowy:
                         <p class="description__text--para">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing lit, sed do eiusmo tempor ncididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minmveniam, quis nostrud.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
                         </p>
                     </span>
                     </li>
@@ -78,10 +80,10 @@
         </div>
 
         <div class="switch-realization">
-            <a class="switch-realization__link" href="bmw-e36-reakcja.php">
+            <a class="switch-realization__link" href="mini-kojder.php">
                 <i class="switch-realization__arrow fa fa-chevron-left"></i> poprzednia realizacja
             </a>
-            <a class="switch-realization__link" href="bmw-e36-palusko.php">
+            <a class="switch-realization__link" href="bmw-e93.php">
                 następna realizacja <i class="switch-realization__arrow fa fa-chevron-right"></i>
             </a>
         </div>
@@ -92,6 +94,7 @@
 <?php include("footer.php"); ?>
 
 <script src="javascript/main.js"></script>
+    
 
 </body>
 </html>

@@ -49,7 +49,7 @@
     <ul class="menu unactive">
         <li class="menu__list-item"><a class="menu__link" href="index.php">Home</a></li>
         <li class="menu__list-item"><a class="menu__link" href="realizacje.php">Realizacje</a></li>
-        <li class="menu__list-item"><a class="menu__link" href="informacje.php">Informacje</a></li>
+        <li class="menu__list-item"><a class="menu__link" href="regulamin.php">Informacje</a></li>
         <li class="menu__list-item"><a class="menu__link" href="kontakt.php">Kontakt</a></li>
     </ul>
 </nav>

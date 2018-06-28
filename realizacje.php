@@ -26,57 +26,76 @@
         </div>
 
         <div class="realizations">
+                    
             <div class="card">
-                <img class="card__image" src="images/realizations/realization-01-01.png">
-                <h4 class="card__title">Mini Cooper - Trigon1</h4>
+                <img class="card__image" src="images/realizations/bmw-e46_struensee_01.jpg">
+                <h4 class="card__title">BMW E46 - Struensee</h4>
                 <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna... </p>
-                <a class="card__link" href="#">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
+                <a class="card__link" href="bmw-e46-struensee.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
+                </a>
+            </div>
+            
+            <div class="card">
+                <img class="card__image" src="images/realizations/mercedes-arocs_pawlica_01.jpg">
+                <h4 class="card__title">Mercedes Arocs - Pawlica</h4>
+                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna... </p>
+                <a class="card__link" href="mercedes-arocs-pawlica.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
+                </a>
+            </div>
+            
+            <div class="card">
+                <img class="card__image" src="images/realizations/bmw-e93_01.jpg">
+                <h4 class="card__title">BMW E93</h4>
+                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna... </p>
+                <a class="card__link" href="bmw-e93.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
                 </a>
             </div>
 
             <div class="card">
-                <img class="card__image" src="images/realizations/realization-01-01.png">
-                <h4 class="card__title">Mini Cooper - Trigon1</h4>
+                <img class="card__image" src="images/realizations/kia-picanto_wierzbicki_01.jpg">
+                <h4 class="card__title">Kia picanto - Wierzbicki</h4>
                 <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna... </p>
-                <a class="card__link" href="#">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
+                <a class="card__link" href="kia-picanto-wierzbicki.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
                 </a>
             </div>
 
             <div class="card">
-                <img class="card__image" src="images/realizations/realization-01-01.png">
-                <h4 class="card__title">Mini Cooper - Trigon1</h4>
+                <img class="card__image" src="images/realizations/mini_kojder_01.jpg">
+                <h4 class="card__title">Mini Cooper - Kojder</h4>
                 <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna... </p>
-                <a class="card__link" href="#">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
+                <a class="card__link" href="mini-kojder.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
                 </a>
             </div>
 
             <div class="card">
-                <img class="card__image" src="images/realizations/realization-01-01.png">
-                <h4 class="card__title">Mini Cooper - Trigon1</h4>
+                <img class="card__image" src="images/realizations/bmw-e36_palusko_01.jpg">
+                <h4 class="card__title">BMW E36 - Palusko</h4>
                 <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna... </p>
-                <a class="card__link" href="#">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
+                <a class="card__link" href="bmw-e36-palusko.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
                 </a>
             </div>
 
             <div class="card">
-                <img class="card__image" src="images/realizations/realization-01-01.png">
-                <h4 class="card__title">Mini Cooper - Trigon1</h4>
+                <img class="card__image" src="images/realizations/mini_trigon_01.jpg">
+                <h4 class="card__title">Mini Cooper - Trigon</h4>
                 <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna... </p>
-                <a class="card__link" href="#">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
+                <a class="card__link" href="mini-trigon.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
                 </a>
             </div>
 
             <div class="card">
-                <img class="card__image" src="images/realizations/realization-01-01.png">
-                <h4 class="card__title">Mini Cooper - Trigon1</h4>
+                <img class="card__image" src="images/realizations/bmw-e36_reakcja_01.jpg">
+                <h4 class="card__title">BMW E36 - Reakcja</h4>
                 <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna... </p>
-                <a class="card__link" href="#">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
+                <a class="card__link" href="bmw-e36-reakcja.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
                 </a>
             </div>
         </div>
