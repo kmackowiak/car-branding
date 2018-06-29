@@ -9,11 +9,11 @@
                         </span>
         </div>
         <div class="short__text">
-            <a href="#" class="short__title">
-                <h4 class="short__title">Tytul artykulu nr 1</h4>
+            <a href="regulamin.php" class="short__title">
+                <h4 class="short__title">Regulamin</h4>
             </a>
-            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-            sed quia non numquam eius modi tempora i...
+            Zasady korzystania oraz polityka prywatności. Właścicielem niniejszej strony internetowej dostępnej
+            pod adresem internetowym ...
         </div>
     </div>
 

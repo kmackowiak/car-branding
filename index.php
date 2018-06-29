@@ -5,12 +5,33 @@
 <head>
     <meta charset="utf-8">
     <title>Car-branding.pl</title>
-    <meta name="description" content="xxx">
-    <meta name="author" content="xx">
+    <meta name="description" content="Zapewniamy całościowe relizacje oklejeń samochodów - od kreacji
+                graficznej począwszy, poprzez wydruk materiałów, a skończywszy na nałożeniu folii.">
+    <meta name="author" content="Car-branding.pl">
     <meta name="viewport" content="width=device-width">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- __________ Favicon Start __________ -->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <!-- __________ Favicon End __________ -->
 </head>
 
 <body>
@@ -36,41 +57,12 @@
         <div class="gallery-slider-mobile">
             <button class="gallery-slider-mobile__arrow" onclick="gallerySliderPrev()"><i class="fa fa-chevron-left"></i></button>
 
-<!--
-            <div class="card" style="display: block;">
-                <img class="card__image" src="images/realizations/realization-01-01.png">
-                <h4 class="card__title">Mini Cooper - Trigon1</h4>
-                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna... </p>
-                <a class="card__link" href="#">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
-                </a>
-            </div>
 
-            <div class="card" style="display: none;">
-                <img class="card__image" src="images/realizations/realization-01-01.png">
-                <h4 class="card__title">Mini Cooper - Trigon2</h4>
-                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna... </p>
-                <a class="card__link" href="#">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
-                </a>
-            </div>
-
-            <div class="card" style="display: none;">
-                <img class="card__image" src="images/realizations/realization-01-01.png">
-                <h4 class="card__title">Mini Cooper - Trigon3</h4>
-                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna... </p>
-                <a class="card__link" href="#">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
-                </a>
-            </div>
--->
-            
-            
             <div class="card" style="display: block;">
                 <img class="card__image" src="images/realizations/bmw-e46_struensee_01.jpg">
                 <h4 class="card__title">BMW E46 - Struensee</h4>
-                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna... </p>
+                <p class="card__description">Pełen projekt i oklejenie samochodu wyścigowego BMW E46 dla teamu
+                    Struensee </p>
                 <a class="card__link" href="bmw-e46-struensee.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
                 </a>
             </div>
@@ -78,8 +70,8 @@
             <div class="card" style="display: none;">
                 <img class="card__image" src="images/realizations/mercedes-arocs_pawlica_01.jpg">
                 <h4 class="card__title">Mercedes Arocs - Pawlica</h4>
-                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna... </p>
+                <p class="card__description">Kreacja graficzna i oklejenie serii ciężarówek marki
+                    Mercedes dla firmy budowlanej </p>
                 <a class="card__link" href="mercedes-arocs-pawlica.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
                 </a>
             </div>
@@ -87,8 +79,8 @@
             <div class="card" style="display: none;">
                 <img class="card__image" src="images/realizations/bmw-e93_01.jpg">
                 <h4 class="card__title">BMW E93</h4>
-                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna... </p>
+                <p class="card__description">Projekt i częsciowe oklejenie samochodu BMW E93 przy zachowaniu
+                    oryginalnego koloru karoserii</p>
                 <a class="card__link" href="bmw-e93.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
                 </a>
             </div>
@@ -100,8 +92,8 @@
             <div class="card">
                 <img class="card__image" src="images/realizations/bmw-e46_struensee_01.jpg">
                 <h4 class="card__title">BMW E46 - Struensee</h4>
-                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna... </p>
+                <p class="card__description">Pełen projekt i oklejenie samochodu wyścigowego BMW E46 dla teamu
+                    Struensee</p>
                 <a class="card__link" href="bmw-e46-struensee.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
                 </a>
             </div>
@@ -109,8 +101,8 @@
             <div class="card">
                 <img class="card__image" src="images/realizations/mercedes-arocs_pawlica_01.jpg">
                 <h4 class="card__title">Mercedes Arocs - Pawlica</h4>
-                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna... </p>
+                <p class="card__description">Kreacja graficzna i oklejenie serii ciężarówek marki
+                    Mercedes dla firmy budowlanej</p>
                 <a class="card__link" href="mercedes-arocs-pawlica.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
                 </a>
             </div>
@@ -118,8 +110,8 @@
             <div class="card">
                 <img class="card__image" src="images/realizations/bmw-e93_01.jpg">
                 <h4 class="card__title">BMW E93</h4>
-                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna... </p>
+                <p class="card__description">Projekt i częsciowe oklejenie samochodu BMW E93 przy zachowaniu
+                    oryginalnego koloru karoserii</p>
                 <a class="card__link" href="bmw-e93.php">Zobacz realizacje<i class="fa fa-angle-double-right"></i>
                 </a>
             </div>
@@ -135,14 +127,14 @@
         <div class="features">
             <div class="feature">
                 <i class="feature__icon fa fa-child"></i>
-                <span class="feature__description feature__description--first-line">50+</span>
-                <span class="feature__description feature__description--second-line">zadowolonych klientów</span>
+                <span class="feature__description feature__description--first-line">500 m<sup>2</sup></span>
+                <span class="feature__description feature__description--second-line">nałożonej folii</span>
             </div>
 
             <div class="feature">
                 <i class="feature__icon fa fa-car"></i>
-                <span class="feature__description feature__description--first-line">100+</span>
-                <span class="feature__description feature__description--second-line">oklejonych samochodów</span>
+                <span class="feature__description feature__description--first-line">25+</span>
+                <span class="feature__description feature__description--second-line">wykonanych projektów</span>
             </div>
 
             <div class="feature">
@@ -160,11 +152,13 @@
         </div>
         <div class="about">
             <p class="about__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in olfirst-linetate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cfirst-lineidatat non proident, sunt in culpa
-                qui officia eserunt mollit anim id est laborum
+                Od 2009 r. działamy na rynku reklamowym. Rok temu uruchomilismy nowy dział związany z kompleksowym
+                brandingiem pojazdów. <br>
+                Zapewniamy całościowe relizacje oklejeń samochodów - od kreacji
+                graficznej począwszy, poprzez wydruk materiałów, a skończywszy na nałożeniu folii.<br>
+                Nasz zespół składa się z: wykwalifikowanych i kreatywnych grafików, drukarzy i naklejaczy
+                posiadających niezwykle trudny do uzyskania certyfikat Avery Dennison potwierdzający ich umiejętności.
+            </ul>
             </p>
             <figure class="about__figure">
                 <img class="about__image" src="images/firma.png" alt="Budynek naszej firmy">

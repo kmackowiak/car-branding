@@ -53,9 +53,21 @@ function galleryThumb() {
     var thumb = document.getElementsByClassName("gallery__thumbnail");
     var big = document.getElementsByClassName("gallery__active-image")[0];
     for (i = 0; i < thumb.length; i++) {
+
+        thumb[0].style.border = "2px solid #7B1D1D";
         thumb[i].addEventListener("click", function () {
             console.log(this.src);
+
             big.src = this.src;
+
+            for (x = 0; x <thumb.length; x++)
+            {
+                thumb[x].style.border = "2px solid #EEEEEE";
+
+            }
+            this.style.border = "2px solid #7B1D1D";
+
+
         });
     }
 }
